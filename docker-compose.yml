@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  core-api: 
+    container_name: docker-nodejs-api-test
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080

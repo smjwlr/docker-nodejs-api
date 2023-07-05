@@ -1,3 +1,2 @@
 const tap = require('tap')
-//tap.pass('this is fine')
-tap.fail("let's fail")
+tap.pass('this is fine')
